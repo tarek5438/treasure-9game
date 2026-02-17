@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(3, 255, 209), white);
+}
+button  {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: lightsalmon;
+    
+}
+button:hover {
+    transform: translateY(1px);
+    background-color: salmon;
+    color: white;
+}
+button:active {
+    transform: scale(0.9);
+}
+.box {
+    width: 100px;
+    transition: 0.5s;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.box:hover {
+    transform: scale(1.1);
+}
